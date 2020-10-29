@@ -16,7 +16,7 @@ namespace SerializationPt1
             Employee emp = new Employee();
 
             emp.ID = 123;
-            emp.Name = "Ninja Nerd";
+            emp.Name = "Alex Sarene";
             emp.SSNumber = 123456789;
             emp.EntryDate = DateTime.Now;
 
@@ -26,7 +26,7 @@ namespace SerializationPt1
                                 $"Date Created: {emp.EntryDate}");
 
             string FilePath = "C:/Temp/";
-            string FileName = "Ninja.xml";
+            string FileName = "Samurai.xml";
 
             TextWriter writer = new StreamWriter(FilePath + FileName);
 
