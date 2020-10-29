@@ -13,11 +13,17 @@ namespace SerializationPt1
     {
         [XmlAttribute("Employee ID")]
         public int ID { get; set; }
+
         [XmlAttribute("Full name")]
         public string Name { get; set; }
+
         [XmlAttribute("Social Security Number")]
         public double SSNumber { get; set; }
+
         [XmlAttribute("Today's Date")]
         public DateTime EntryDate { get; set; }
+
+        [XmlIgnore]
+        public string JobRole { get; set; }
     }
 }
